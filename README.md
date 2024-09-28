@@ -14,10 +14,12 @@
     and type: npm install
 # 3 . Navigate to the backend directory using : 
       cd server
-     and type install the required python packages using pip command. 
-# [Note: Use conda enviornment for better experience]
+# install the required python packages using pip command. [Note: Use conda enviornment for better experience]
+
 # 4. Run both frontend and backend : 
-# FrontEnd : npm run dev
-# Backend : python devgen_server.py
+# FrontEnd : 
+    npm run dev
+# Backend : 
+    python devgen_server.py
 
 Happy Coding......🚀 🚀
