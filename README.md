@@ -14,7 +14,8 @@
       npm install
 # 3 . Navigate to the backend directory using : 
       cd server
-# install the required python packages using pip command. [Note: Use conda enviornment for better experience]
+      pip install .
+# [Note: Use conda enviornment for better experience]
 
 # 4. Run both frontend and backend : 
 # FrontEnd : 
