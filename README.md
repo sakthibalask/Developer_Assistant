@@ -13,7 +13,9 @@
       cd devgenAi
       npm install
 # 3 . Navigate to the backend directory using : 
+      cd ..
       cd server
+      conda create -name sample python=3.11 // if conda installed else skip.
       pip install .
 # [Note: Use conda enviornment for better experience]
 
