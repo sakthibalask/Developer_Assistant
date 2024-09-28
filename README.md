@@ -11,7 +11,7 @@
     cd devgen
 # 2 . Navigate to the frontend directory using: 
       cd devgenAi
-    and type: npm install
+      npm install
 # 3 . Navigate to the backend directory using : 
       cd server
 # install the required python packages using pip command. [Note: Use conda enviornment for better experience]
