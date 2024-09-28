@@ -1,0 +1,59 @@
+:root {
+    --clr-primary: #ee6352;
+    --clr-body: #333;
+    --clr-bg: #ddd;
+    --spacer: 2rem;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .planner-flow > * + * {
+    margin-top: var(--flow-space, var(--spacer));
+  }
+  
+  .planner-body {
+    /* min-height: 100vh; */
+    width: 100%;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: var(--clr-body);
+    background: var(--clr-bg);
+  }
+  
+
+  
+  .planner-content {
+    width: 100%;
+    margin: 0 auto;
+    background: white;
+  }
+  
+  .planner-title {
+    font-weight: 900;
+    color: var(--clr-primary);
+    line-height: 0.8;
+  }
+
+  .planner-custom-marker{
+    padding: 0em;
+  }
+  
+  .planner-custom-marker > ::marker {
+    color: var(--clr-primary);
+    font-size: 1em;
+    content: "";
+    font-weight: 700;
+  }
+  
+  .planner-custom-marker > li {
+    /* padding: 1rem; */
+    padding-left: 0.5em;
+  }
+  

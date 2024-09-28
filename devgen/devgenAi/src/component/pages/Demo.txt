@@ -1,0 +1,27 @@
+<div className="editor-box">
+                        <label htmlFor=""><span><i class="ri-css3-line"></i> CSS</span>  <span className="editor-icon"><i class='bx bx-copy' ></i></span></label>
+                        <textarea id="css-code" disabled></textarea>
+                    </div>
+                    <div className="editor-box">
+                        <label htmlFor="">
+                            <span><i class="ri-reactjs-line"></i> React</span>
+                            <span className="editor-icon"><i class='bx bx-copy' ></i></span>
+                        </label>
+                        <textarea id="react-code" disabled></textarea>
+                    </div>
+                    <div className="editor-box">
+                        {/* <label htmlFor=""><i class='bx bxl-python'></i> Python</label> */}
+                        <label htmlFor="">
+                            <span><i class='bx bxl-python'></i> Python</span>
+                            <span className="editor-icon"><i class='bx bx-copy' ></i></span>
+                        </label>
+                        <textarea id="python-code" disabled></textarea>
+                    </div>
+                    <div className="editor-box">
+                        <label htmlFor=""><span><i class="ri-java-line"></i> Java</span> <span className="editor-icon"><i class='bx bx-copy' ></i></span></label>
+                        <textarea id="java-code" disabled></textarea>
+                    </div>
+                    <div className="editor-box">
+                        <label htmlFor=""><span><i class="ri-terminal-line"></i>Terminal</span>  <span className="editor-icon"><i class='bx bx-copy' ></i></span></label>
+                        <textarea id="terminal-code" disabled></textarea>
+                    </div>

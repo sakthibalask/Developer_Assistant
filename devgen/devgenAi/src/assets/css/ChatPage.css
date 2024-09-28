@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jersey 10", sans-serif;
+    font-style: normal;
+}
+
+.code-body{
+    background: #0f0f0f;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden !important;
+}
+
+.code-sidebar{
+    flex: 1;
+    border-right: 1px solid lightgrey;
+}
+
+.code-logo{
+    margin-right: 0.5rem;
+    width: 40px;
+    height: 40px;
+}
+
+.code-brand{
+    font-size: 2rem;
+}
+
+.code-upperSidebar{
+    padding: 0.7rem;
+    border-bottom: 1px solid lightgray;
+    height: 60%;
+
+}
+
+.code-upperSideTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.code-midBtn{
+    background: white;
+    color: #000000;
+    border: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+.code-query{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 1.5rem;
+    width: 19rem;
+    color: white;
+    border: 1px solid lightgray;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.code-query>i{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.code-upperSideBottom{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 320px;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.code-lowerSidebar{
+    padding: 2rem;
+}
+.code-listItems{
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+    padding: 1rem;
+    background: transparent;
+    color: white;
+    font-size: 1.2rem;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-upgrade{
+    background: white;
+    color: #000000;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.code-listItems:not(.code-upgrade):hover{
+    background: white;
+    color: #000000;
+    border: none;
+    
+}
+
+.code-listItems>i{
+    margin-right: 1rem;
+    font-size: 1rem;
+}
+
+.code-mainArea{
+    flex: 9;
+    min-height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 2rem;
+}
+
+.code-chatFooter{
+    margin-top: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.code-chatFooter .code-inp{
+    padding: 0.5rem;
+    background: white;
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.code-inp .code-input{
+    width: calc(100% - 2rem);
+    padding: 1rem;
+}
+
+.code-inp .code-input, 
+.code-inp .code-send{
+    background: transparent;
+    color: #000000;
+    border: none;
+    outline: none;
+}
+
+.code-inp .code-send{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.code-dis{
+    font-size: 0.7rem;
+    color: gray;
+}
+
+.code-chats{
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    max-width: 80rem;
+    width: 100%;
+    height: calc(100vh - 17rem);
+}   
+
+
+
+.code-chat{
+    margin: 1rem;
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+.code-chatImg{
+    object-fit: cover;
+    width: 3.5rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+}
+
+.code-devgen{
+    background: #4D4D4D;
+    color: white;
+    width: fit-content;
+    border-radius: 0.5rem;
+}
+
+.code-user{
+    align-items: center;
+}

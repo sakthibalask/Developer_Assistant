@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.editor-container{
+    width: 100%;
+    height: 95vh;
+    padding: 20px;
+    display: flex;
+    overflow: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.editor-left{
+    display: grid;
+    grid-template-rows: repeat(1fr, 4);
+    gap: 100px;
+    
+}
+
+.editor-left .editor-box{
+    width: 100%;
+    height: 10vh;
+}
+
+
+
+.editor-left .editor-box>label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.editor-left .editor-box>label>span{
+    font-size: 1.5rem;
+    color: #5A4BFF;
+}
+
+.editor-left .editor-box>label .editor-icon{
+    font-size: 1.1rem;
+    color: #5A4BFF;
+    cursor: pointer;
+}

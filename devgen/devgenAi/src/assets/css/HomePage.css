@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chat-main{
+    max-width: 1600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.chat-leftSide{
+   width: 100%;
+}
+
+.chat-rightSide{
+    width: 100%;
+}
