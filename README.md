@@ -16,7 +16,7 @@
       cd ..
       cd server
       conda create -name sample python=3.11 // if conda installed else skip.
-      pip install .
+      
 # [Note: Use conda enviornment for better experience]
 
 # 4. Run both frontend and backend : 
